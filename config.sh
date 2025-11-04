@@ -1,8 +1,8 @@
 #! /bin/bash
 
-DOTFILES=(.bash_profile .gitconfig .gitignore .zshrc)
+CONFIGFILES=(.bash_profile .gitconfig .gitignore .zshrc)
 
-for dotfile in $(echo ${DOTFILES[*]});
+for  configfile in $(echo ${CONFIGFILES[*]});
 do
-    cp ~/dotfiles/$(echo $dotfile) ~/$(echo $dotfile)
+    cp ~/configfiles/$(echo $configfile) ~/$(echo $configfile)
 done
