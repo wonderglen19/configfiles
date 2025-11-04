@@ -1,0 +1,7 @@
+[user]
+	name = wonderglen19
+	email = glendys.filsinger@gmail.com
+[core]
+	editor = nano
+[init]
+	defaultBranch = main
